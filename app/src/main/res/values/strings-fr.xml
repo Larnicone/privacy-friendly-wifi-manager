@@ -1,0 +1,149 @@
+<resources>
+
+    <!-- GENERAL -->
+    <string name="app_name">WiFi Manager</string>
+    <string name="on">Activé</string>
+    <string name="off">Désactivé</string>
+    <string name="global_on_off_switch">Activé/Désactivé</string>
+    <string name="remove_entry">Supprimer l'entrée</string>
+    <string name="button_next">Suivant</string>
+    <string name="button_finish">Terminer</string>
+    <string name="button_cancel">Annuler</string>
+
+    <string name="okay">OK</string>
+    <string name="next">Suivant</string>
+    <string name="skip">Ignorer</string>
+
+    <string name="navigation_drawer_open">Ouvrir le panneau de navigation</string>
+    <string name="navigation_drawer_close">Fermer le panneau de navigation</string>
+
+
+    <!-- DRAWER ENTRIES -->
+    <string name="fragment_wifilist">Réseaux WiFi autorisés</string>
+    <string name="fragment_schedule">Programmer</string>
+    <string name="fragment_settings">Paramètres</string>
+    <string name="activity_help">Aide</string>
+    <string name="fragment_about">À propos</string>
+    <string name="group_communicate">Contacter</string>
+
+
+    <!-- ACTIVITY TITLES -->
+    <string name="title_activity_details">Détails</string>
+
+
+    <!-- CONTENT STRINGS -->
+    <string name="header_wifilist">Liste des réseaux WiFi gérés</string>
+    <string name="header_schedule">Liste des plages horaires actives</string>
+
+
+    <!-- WIFI STRINGS -->
+    <string name="wifi_ssid_text">%1$s</string>
+    <string name="wifi_bssid_text">MAC: %1$s</string>
+    <string name="wifi_multi_bssid_text">%1$d lié MACs</string>
+    <string name="wifi_num_cells_text">Émetteurs liés: %1$d</string>
+    <string name="wifi_enable_wifi_to_scan">Vous devez activer le WiFi pour ajouter un nouveau réseau.</string>
+    <string name="wifi_enable_wifi">Activer le WiFi</string>
+    <string name="wifi_hidden_wifi_text">--WiFi dissimulé--</string>
+
+
+    <!-- WIFI PICKER DIALOG STRINGS -->
+    <string name="wifi_picker_dialog_title">Sélectionner un réseau</string>
+    <string name="wifi_picker_dialog_button_cancel">Annuler</string>
+
+
+    <!-- SCHEDULE STRINGS -->
+    <string name="schedule_time_text">De %1$d:%2$02d à %3$d:%4$02d</string>
+
+
+    <!-- TIME PICKER DIALOG STRINGS -->
+    <string name="time_picker_dialog_title_choose_start_time">Choisir l'heure de début</string>
+    <string name="time_picker_dialog_title_choose_end_time">Choisir l'heure de fin</string>
+    <string name="time_picker_dialog_title_choose_title">Choisir le titre</string>
+    <string name="time_picker_dialog_text_title_hint">Tranche horaire %1$d</string>
+
+
+    <!-- ABOUT STRINGS -->
+    <string name="about_goal">Objectif</string>
+    <string name="about_whatdoesitdo">Privacy Friendly WiFi Manager garde la trace des identifiants de l'émetteur de téléphonie mobile dans votre zone lorsque vous êtes connecté à un réseau WiFi. En conservant ces informations, l'application essaie d'apprendre où se trouve votre réseau WiFi sans utiliser le GPS.
+    </string><![CDATA[
+    string>
+    ]]>
+    <string name="about_author">Auteurs:</string>
+    <string name="about_affiliation"><b>En collaboration avec</b></string>
+    <string name="about_moreinfo">Pour plus d'informations, voir le site:</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_privacyfriendly">Cette application fait partie du groupe des applications de protection de la vie privée développées par la l'Université Technique de Darmstadt. Code source sous licence Apache version 2.0. Images copyright TU Darmstadt et Google Inc.</string>
+    <string name="about_url_github" translatable="false"><a href="https://github.com/SecUSo/privacy-friendly-wifi">Github-Repo</a></string>
+    <string name="about_url_secuso" translatable="false"><a href="https://www.secuso.org/pfa">SECUSO-Website</a></string>
+
+
+    <!-- HELP STRINGS -->
+    <string name="help_actionbar_string">Aide</string>
+    <string name="help_category_permissions">Permissions</string>
+    <string name="help_desc_coarse_location">L'autorisation pour votre localisation approximative est nécessaire pour récupérer les informations de la tour cellulaire la plus proche.</string>
+    <string name="help_category_tutorial">Tutoriel</string>
+    <string name="help_category_privacy_info">Informations sur la protection de la vie privée
+</string>
+    <string name="help_category_cm">ROM basée sur CyanogenMod</string>
+    <string name="help_content_step0_cm">En raison d'un bug dans CM 13, vous devez activer le service de localisation (GPS). Sinon, aucun réseau WiFi ne peut être trouvé.
+</string>
+
+
+    <!-- TUTORIAL -->
+    <string name="help_actionbar_substring_step0">Autorisation des permissions</string>
+    <string name="help_actionbar_substring_step2">Ajout d'un réseau WiFi
+</string>
+    <string name="help_actionbar_substring_step3">Voici comment ça fonctionne</string>
+    <string name="help_actionbar_substring_step5">Carte SIM</string>
+    <string name="help_content_step5_description">Pour contrôler votre WiFi à partir de l'émetteur de téléphonie mobile, l'appareil doit être connecté à une antenne mobile. Par conséquent, cette fonctionnalité ne fonctionne pas sur les appareils sans carte SIM.</string>
+
+    <string name="welcome">Bienvenu</string>
+    <string name="help_content_step0_description">Pour récupérer les informations de l'émetteur de téléphonie cellulaire le plus proche, WiFi Privacy Friendly Manager nécessite un accès à votre emplacement approximatif. L'autorisation peut également être accordée ultérieurement.</string>
+    <string name="help_content_step2_description">Pour ajouter un réseau WiFi connu à la liste des réseaux gérés, cliquez sur le bouton \"+". Privacy Friendly WiFi Manager active le WiFi de votre appareil lorsque vous êtes à proximité d'un réseau WiFi connu.</string>
+    <string name="help_content_step3_description">Privacy Friendly WiFi Manager enregistre les émetteurs de téléphonie cellulaire auxquels votre appareil mobile est connecté lorsque vous êtes à portée d'un réseau WiFi connu. En fonction des émetteurs de téléphonie cellulaire sauvegardés, Privacy Friendly WiFi Manager active ou désactive votre WiFi. Vous pouvez en outre définir des plages horaires dans lesquelles le WiFi de votre appareil doit s'éteindre automatiquement (par exemple, la nuit).</string>
+    <string name="help_welcome_description">Merci d'utiliser Privacy Friendly WiFi Manager ! Cette application éteint automatiquement votre WiFi si vous n'êtes pas à proximité d'un réseau WiFi connu.</string>
+
+
+    <!-- NOTIFICATION -->
+    <string name="notification_content_info">Connexion non gérée</string>
+    <string name="notification_unknown_wifi_title">Nouveau réseau WiFi non géré</string>
+    <string name="notification_unknown_wifi_title_format">Nouveau réseau WiFi non géré : %1$s</string>
+    <string name="notification_button_add">Gérer cette connexion automatiquement</string>
+    <string name="notification_main_text">Touchez pour gérer les connexions</string>
+    <string name="toast_wifi_added">Réseau WiFi %1$s ajouté.</string>
+
+
+    <!-- SETTINGS STRINGS -->
+    <string name="settings_general">Paramètres généraux</string>
+    <string name="settings_respect_signal_strength">Respecter la force du signal</string>
+    <string name="settings_respect_signal_strength_desc">L'intensité du signal cellulaire sera respectée pour l'estimation de l'emplacement.</string>
+    <string name="settings_show_notification_to_add_unmanaged_wi_fis">Afficher les notifications</string>
+    <string name="settings_show_notification_to_add_unmanaged_wi_fis_desc">Une notification s'affichera lors d'une connexion à un réseau WiFi non géré.</string>
+    <string name="settings_grant_permissions">Demande d'autorisations</string>
+    <string name="settings_developer">Paramètres de développement</string>
+    <string name="settings_delete_logfile">Supprimer le fichier log</string>
+    <string name="settings_info_logfile_deleted">Fichier log supprimé avec succès.</string>
+    <string name="settings_info_logfile_deletion_error">Le fichier log n'a pas pu être supprimé.</string>
+    <string name="settings_flush_logfile">Réinitialiser le fichier log</string>
+    <string name="settings_remove_first_run_flag">Supprimer l'indicateur de premier lancement de l'application</string>
+    <string name="settings_hide_developer_settings">Masquer les paramètres de développement</string>
+
+
+    <!-- DETAILS STRINGS -->
+    <string name="details_ssid_placeholder">SSID inconnu</string>
+    <string name="details_macs_header">MACs</string>
+    <string name="details_cellids_header">IDs de l'émetteur</string>
+
+
+    <!-- WIDGET STRINGS -->
+    <string name="appwidget_text">Gestion automatique du WiFi:</string>
+    <string name="app_name_privacy" translatable="false">Privacy Friendly WiFi Manager</string>
+    <string name="about_author_names" translatable="false">Jan Henzel, Patrick Jauernig, Dennis Werner</string>
+    <string name="help_category_general">Général</string>
+    <string name="help_welcome_summary">Cette application vous aide à allumer/éteindre automatiquement votre WiFi lorsque vous n'êtes pas à proximité d'un réseau WiFi connu.</string>
+    <string name="help_category_howitworks">Comment ça fonctionne</string>
+    <string name="help_goal_desc">L'objectif principal est d'éviter le suivi de localisation via le WiFi, mais WiFi Manager permet également d'économiser la batterie en désactivant automatiquement la connexion WiFi de vos téléphones quand ils ne sont pas à proximité d'un réseau sans fil connu.</string>
+    <string name="help_category_benefits">Avantages</string>
+    <string name="help_benefits_desc">En désactivant le WiFi lorsqu'il n'est pas nécessaire, on évite ce qu'on appelle le tracking via WiFi. Privacy Friendly WiFi Manager économise également la batterie en désactivant automatiquement le WiFi de votre appareil au cas où il ne se trouve pas à proximité d'un réseau WiFi connu.</string>
+
+</resources>
